@@ -1,0 +1,47 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.mainbody {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondbody {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.booking-select {
+  display: flex;
+}
+
+.homeimg {
+  width: 40px;
+  height: 40px;
+}
+
+.parallax {
+  background: url(../img/busbg.jpg) repeat fixed 100%;
+}
+.parallax2 {
+  background: url(../img/busbg2.jpg) repeat fixed 100%;
+}
+.tabel {
+  display: contents;
+}
+
+#table-button {
+  color: red;
+}
+.list-group-item {
+  display: flex;
+}
